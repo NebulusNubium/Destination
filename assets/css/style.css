@@ -128,3 +128,51 @@ padding: 0 0 50px 10px;
         gap: 10px;
     }
    }
+
+   @media screen and (max-width: 930px) {
+    nav {
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-left: 5rem;
+    }
+   }
+
+   header {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+}
+    
+
+   @media screen and (max-width: 780px) {
+    nav {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 10px;
+    }
+    header {
+        height: 20vh;
+    }
+
+    .destination {
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ville {
+        width: 60%;
+    }
+    
+}
